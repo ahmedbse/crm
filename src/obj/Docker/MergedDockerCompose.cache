@@ -1,0 +1,11 @@
+services:
+  crm:
+    build:
+      context: C:\Users\ahussain\source\repos\CRM
+      dockerfile: CRM/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: crm
+    ports:
+    - 80/tcp
+version: '3.0'

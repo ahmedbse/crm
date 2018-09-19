@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  crm:
+    image: crm
+    build:
+      context: .
+      dockerfile: CRM/Dockerfile
